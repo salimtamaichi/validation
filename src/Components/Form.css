@@ -1,0 +1,98 @@
+/* NetflixForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #e50914; /* Rojo de Netflix */
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  select {
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  select:hover,
+  input:hover {
+    border-color: #999;
+  }
+  
+  button {
+    background-color: #e50914; /* Rojo de Netflix */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #b20710; /* Rojo más oscuro */
+  }
+  
+  .error {
+    color: #e50914; /* Rojo de Netflix */
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  /* Estilos adicionales existentes */
+  
+  .invalid-input {
+    border: 2px solid #ff3333;
+    /* Cambia el color del borde para indicar error */
+  }
+  
+  .valid-input {
+    border: 2px solid #00cc00;
+    /* Borde verde para indicar validación correcta */
+  }
+  
+  .validation-message {
+    color: #ff3333;
+    /* Cambia el color del mensaje de validación */
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .empty-input {
+    border: 2px solid black; /* Borde negro para indicar que no hay nada escrito */
+  }
+  
+  .green-background {
+    background-color: green;
+  }
+  
